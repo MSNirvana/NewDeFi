@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4f763e98.chunk.css",
+    "main.js": "/static/js/main.ec165a3c.chunk.js",
+    "main.js.map": "/static/js/main.ec165a3c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.13a52c1d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.13a52c1d.js.map",
+    "static/css/2.a95be28f.chunk.css": "/static/css/2.a95be28f.chunk.css",
+    "static/js/2.138dd220.chunk.js": "/static/js/2.138dd220.chunk.js",
+    "static/js/2.138dd220.chunk.js.map": "/static/js/2.138dd220.chunk.js.map",
+    "static/js/3.e3f6b0cc.chunk.js": "/static/js/3.e3f6b0cc.chunk.js",
+    "static/js/3.e3f6b0cc.chunk.js.map": "/static/js/3.e3f6b0cc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.4f763e98.chunk.css.map": "/static/css/main.4f763e98.chunk.css.map",
+    "static/js/2.138dd220.chunk.js.LICENSE.txt": "/static/js/2.138dd220.chunk.js.LICENSE.txt",
+    "static/media/sell.css": "/static/media/NFT.b43eb522.png",
+    "static/media/App.css": "/static/media/vip.e56fcbcd.png",
+    "static/media/volunteer.css": "/static/media/red_btn.b246b280.png",
+    "static/media/buy.css": "/static/media/sucess.ddf60c71.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13a52c1d.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.138dd220.chunk.js",
+    "static/css/main.4f763e98.chunk.css",
+    "static/js/main.ec165a3c.chunk.js"
+  ]
+}
