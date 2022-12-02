@@ -1,0 +1,98 @@
+.Volunteer .indexpart{
+  width: 100%;
+  padding:70px 40px;
+}
+.Volunteer .titst{
+  font-size:64px;
+  color: #151732;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+.Volunteer .list{
+  margin-top:90px;
+  display: block;
+}
+.Volunteer .li{
+  display: block;
+  text-align: left;
+  margin-bottom:35px;
+}
+.Volunteer .li .vt{
+  font-size:26px;
+  color: #353968;
+  display: block;
+  font-weight: bold;
+}
+.Volunteer .li .tx{
+  font-size:26px;
+  color: #6c6f92;
+  display: block;
+  margin-top: 10px;
+  line-height: 1.3em;
+}
+.Volunteer .btnf{
+  display: block;
+  width: 350px;
+  height: 105px;
+  background: url("images/blue_btn.png") no-repeat;
+  background-size:100% 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 100px;
+  margin-top:160px;
+  text-align: center;
+}
+.Volunteer .btnfs{
+  display: block;
+  width: 350px;
+  height: 105px;
+  background: url("images/gray.png") no-repeat;
+  background-size:100% 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 100px;
+  margin-top:160px;
+  text-align: center;
+}
+.Volunteer .btnfsr{
+  display: block;
+  width: 350px;
+  height: 105px;
+  background: url("images/red_btn.png") no-repeat;
+  background-size:100% 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 100px;
+  margin-top:160px;
+  text-align: center;
+}
+
+.total{
+  display: block;
+  height: 113px;
+  line-height: 113px;
+  border-top:2px solid #edeef6;
+  border-bottom:1px solid #edeef6;
+  margin-top:62px;
+  display: flex;
+  justify-content:space-between;
+}
+.total span{
+  display: block;
+  height: 113px;
+  line-height: 113px;
+  font-size: 26px;
+  color: #353968;
+}
+.total span:nth-child(2){
+  color:#151732;
+  font-size: 36px;
+  font-weight: bold;
+}

@@ -1,0 +1,152 @@
+.pageshare{
+  width: 100%;
+  min-height: 100%;
+  background:#8c5e1c;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.pageshare .index{
+  width: 670px;
+  min-height: 1140px;
+  background: url("images/sharepage.jpg") no-repeat;
+  background-size: 100% 100%;
+  margin:0 auto;
+  margin-top: 140px;
+  border-top-left-radius:25px;
+  border-top-right-radius:25px;
+  padding-bottom:60px;
+}
+.pageshare .index .top{
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.pageshare .index .top .t1{
+  font-size:48px;
+  color: #000000;
+  width: 100%;
+
+  margin-top:60px;
+}
+.pageshare .index .top .t2{
+  font-size:100px;
+  color: #000000;
+  margin-top: 10px;
+}
+.pageshare .index .top .t3{
+  width: 620px;
+  height: 92px;
+  background: url("images/pngt.png") no-repeat center;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  margin-top:20px;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom:30px;
+}
+.pageshare .index .top .t3 span{
+  display: block;
+  width: 510px;
+  text-align: left;
+  margin-left:100px;
+  padding-top: 18px;
+  line-height:28px;
+
+}
+.pageshare .index .top .img{
+  width:450px;
+  height:450px;
+  background: url("images/qrceode.png");
+  background-size:100% 100%;
+  position: relative;
+  left:110px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.pageshare .index .top .img canvas{
+
+}
+.pageshare .index .top .t4{
+  width:590px;
+
+  background:rgba(0,0,0,.1);
+  border-radius:15px;
+  margin:0 auto;
+  text-align: center;
+  font-size:26px;
+  color: #353968;
+  margin-top:44px;
+  padding: 15px;
+}
+.pageshare .index .top .t4 .t4_1{
+  font-size:26px;
+  color: #ffffff;
+}
+.pageshare .index .top .t4 .t4_2{
+  font-size:24px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  word-break:break-all
+}
+.pageshare .index .top .t5{
+  width: 483px;
+  height: 84px;
+  /*background: url("images/share_b.png") no-repeat center;*/
+  background-size: 100% 100%;
+  margin: 0 auto;
+  margin-top:50px;
+}
+.pageshare .index_bottom{
+  height:120px;
+  width: 670px;
+  background: #fff;
+  border-bottom-left-radius:25px;
+  border-bottom-right-radius:25px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pageshare .index_bottom div{
+  flex: 1;
+  text-align: center;
+  line-height: 120px;
+}
+.pageshare .index_bottom div span{
+  font-size: 28px;
+  display: block;
+  line-height: 120px;
+}
+.pageshare .index_bottom div:nth-child(1) span{
+  background:url("images/copy.png") no-repeat 35% 50%;
+  background-size:32px 32px;
+  padding-left:100px;
+
+}
+.pageshare .index_bottom div:nth-child(2) span{
+  background:url("images/download.png") no-repeat 35% 50%;
+  background-size:32px 32px;
+  padding-left:100px;
+
+}
+.pageshare .index_bottom div:nth-child(2) span a{
+  color: #000;
+}
+.showImg{
+  position: fixed;
+  z-index:999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.9);
+
+}
+.showImg .isg{
+  width:670px;
+  margin:0 auto;
+  margin-top:100px;
+}
+.showImg .isg img{
+  width: 100%;
+}

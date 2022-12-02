@@ -1,0 +1,1124 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  width: 100%;
+  background: url("images/bg-mobile.png") no-repeat center top #5460ff;
+  background-size:100% auto;
+  padding-bottom:200px;
+  min-height:100%;
+}
+.App .index{
+  width: 100%;
+  height: 100%;
+}
+.App .header{
+  height:170px;
+  position: relative;
+
+}
+.App .header .logo{
+  width:173px;
+  height:64px;
+  background: url("images/logo.png") no-repeat center;
+  background-size: 100% 100%;
+  float: left;
+  margin-top:75px;
+  margin-left: 37px;
+}
+.App .header .back{
+  width:48px;
+  height: 48px;
+  background: url("images/back.png") no-repeat center;
+  background-size: 100% 100%;
+  float: left;
+  margin-top: 80px;
+  margin-left: 37px;
+}
+.callsback{
+  position: fixed;
+  left:37px;
+  top:40px;
+  width:48px;
+  height: 48px;
+  background: url("images/back.png") no-repeat center;
+  background-size: 100% 100%;
+  float: left;
+  z-index:99;
+}
+.App .header .r{
+  float: right;
+}
+.App .header .r .language{
+  width:48px;
+  height:48px;
+  background: url("images/language.png") no-repeat center;
+  background-size: 100% 100%;
+  float: left;
+  margin-top: 85px;
+  margin-right:20px;
+}
+.App .header .r .language a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.App .header .r .action{
+  height:48px;
+  background: rgba(255,255,255,.3);
+  margin-top:85px;
+  float: left;
+  border-radius:25px;
+  margin-right:20px;
+}
+.App .header .r .address{
+  min-width:10px;
+  min-height: 48px;
+  color: #000000;
+  font-size: 20px;
+  float: left;
+  line-height: 48px;
+  margin-left:10px;
+}
+.App .header .r .wallet{
+  width:56px;
+  height:56px;
+  background: url("images/wallet.png") no-repeat center;
+  background-size: 100% 100%;
+  float:left;
+  margin-top: -3px;
+}
+.App .header .r .accter{
+  width: 48px;
+  height:48px;
+  background: url("images/down.png") no-repeat center;
+  background-size:18px 10px;
+  float: left;
+}
+.App .header .r .accter a{
+  display: block;
+  width: 65px;
+  height: 100%;
+  float: right;
+}
+.App .header .menu{
+  width: 46px;
+  height:40px;
+  background: url("images/meau.png") no-repeat center;
+  background-size:100% 100%;
+  float: left;
+  margin-top:90px;
+  margin-right:40px;
+}
+.App .header .menu a{
+  display: block;
+  width: 50px;
+  height: 100%;
+  float: right;
+}
+.ant-dropdown-menu-item, .ant-dropdown-menu-submenu-title{
+  height:50px;
+  text-align: center;
+}
+
+.App .index_fititle{
+  font-size: 28px;
+  color: #abab1b;
+  text-align: center;
+  margin-top:30px;
+}
+.App .index_setitle{
+  font-size:68px;
+  color: #424217;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  font-weight: 800;
+}
+.App .indexpart{
+  width:680px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius:25px;
+  padding:30px;
+  margin-top:80px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px #3333;
+}
+.App .indexpart .secsen{
+  width: 620px;
+  height: 324px;
+  background: url("images/secsen.png") no-repeat center;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding-top: 60px;
+}
+.App .indexpart .secsen .secfititle{
+  font-size:26px;
+  color:#fff;
+  text-align: center;
+  position: relative;
+
+}
+.ant-popover-inner{
+  min-width:400px;
+  max-width: 98%;
+}
+.ant-popover-buttons button{
+  width:80px;
+  height:60px;
+}
+.App .indexpart .secsen .secfititle a{
+  display: inline-block;
+  width:28px;
+  height:28px;
+  background: url("images/help.png") no-repeat;
+  background-size:100% 100%;
+  position: absolute;
+  top:0px;
+  margin-left:10px;
+}
+.App .indexpart .secsen .secsetitle{
+  font-size:72px;
+  color:#fff100;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.App .indexpart .secsen .pro{
+  width:560px;
+  height:20px;
+  margin: 0 auto;
+  margin-top:35px;
+  position: relative;
+}
+.App .indexpart .secsen .pro .ant-progress{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.ant-progress-inner{
+  background:#0d101a;
+  padding:4px;
+}
+.ant-progress-bg{
+  background: #ee611a;
+  float: right;
+}
+.App .indexpart .secsen .sectime{
+  background: url("images/sectime.png") no-repeat center left;
+  background-size: 28px 28px;
+  font-size: 28px;
+  color: #fff;
+  display:inline-block;
+  text-indent:34px;
+  margin-top: 26px;
+}
+.ant-dropdown-menu{
+  padding: 0 20px;
+  border-radius: 5px;
+}
+.ant-dropdown-menu-title-content > a{
+  font-size:32px;
+}
+.ant-dropdown-menu-item, .ant-dropdown-menu-submenu-title{
+  line-height: 80px;
+  height: 80px;
+}
+.App .indexpart .parline{
+  overflow: hidden;
+  padding:28px 0;
+  border-bottom: 1px solid #edeef6;
+  line-height: 46px;
+}
+.App .indexpart .parline a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.App .indexpart .parline span:nth-child(1){
+  font-size: 36px;
+  color:#151732;
+  float: left;
+  font-weight: bold;
+  line-height: 46px;
+}
+.App .indexpart .parline span:nth-child(3){
+  font-size: 36px;
+  color:#16b46a;
+  float:right;
+  font-weight: bold;
+  line-height: 46px;
+}
+/*.App .indexpart .parline span:nth-child(2){*/
+/*  font-size: 36px;*/
+/*  color:#16b46a;*/
+/*  float: left;*/
+/*  margin-left: 10px;*/
+/*  line-height: 46px;*/
+/*}*/
+/*.App .indexpart .parline span:nth-child(2).red{*/
+/*  color: #f5222d;*/
+/*}*/
+/*.App .indexpart .parline span:nth-child(4){*/
+/*  font-size: 36px;*/
+/*  color:#16b46a;*/
+/*  float: right;*/
+/*  line-height: 46px;*/
+/*}*/
+.App .indexpart .parline span:nth-child(2){
+  width: 46px;
+  height: 46px;
+  background: url("images/k.png") no-repeat center;
+  background-size: 100% 100%;
+  float: right;
+  margin-left:10px;
+}
+.App .indexpart .parlinek{
+  padding:38px 0;
+  border-bottom: 1px solid #edeef6;
+  line-height: 46px;
+  display: flex;
+  justify-content:space-between;
+  font-size: 26px;
+  color: #353968;
+  position: relative;
+  text-align: left;
+}
+.App .indexpart .parlinek.k2{
+  background: url("images/lptoken.png") no-repeat left center;
+  background-size:63px 42px;
+  padding-left:75px;
+  line-height:42px;
+}
+.App .indexpart .parlinek.k2 div{
+  line-height:42px;
+}
+.App .indexpart .parlinek.k3{
+  background: url("images/fomo.png") no-repeat left center;
+  background-size:42px 42px;
+  padding-left:50px;
+  line-height:42px;
+}
+.App .indexpart .parlinek.k3 div{
+  line-height:42px;
+}
+.App .indexpart .parlinek.k4{
+  background: url("images/usdt.png") no-repeat left center;
+  background-size:42px 42px;
+  padding-left:50px;
+  line-height:42px;
+}
+.App .indexpart .parlinek.k4 div{
+  line-height:42px;
+}
+.tipcool{
+  padding-right: 30px;
+}
+.tipcool div:nth-child(2){
+  padding-right:40px;
+}
+.App .indexpart .parlinek a{
+  display: inline-block;
+  width:28px;
+  height:28px;
+  background: url("images/help.png") no-repeat;
+  background-size:100% 100%;
+  position: absolute;
+  top:46px;
+  right: 0;
+  margin-left:0px;
+}
+.App .indexpart .parlinek span{
+  font-size: 36px;
+  color: #151732;
+  font-weight: bold;
+  padding-right:10px;
+}
+.App .indexpart .btn{
+  display: flex;
+  justify-content: space-between;
+  margin-top:40px;
+}
+.App .indexpart .btn div{
+  width: 305px;
+  height: 105px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 48px;
+  font-weight:800;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.App .indexpart .btn div:nth-child(1){
+  background: url("images/green_btn.png") no-repeat center;
+  background-size:100% 100%;
+}
+.App .indexpart .btn div:nth-child(2){
+  background: url("images/blue_btn.png") no-repeat center;
+  background-size:100% 100%;
+}
+.App .indexpart .fit{
+  font-size: 48px;
+  color: #151732;
+  text-align:left;
+  position: relative;
+  margin-bottom:30px;
+  font-weight:800;
+}
+.App .indexpart .fit span{
+  position: absolute;
+  color: #5460ff;
+  font-size:32px;
+  font-weight: 500;
+  right: 0;
+  bottom: 0;
+}
+.App .indexpart .btns{
+  font-size: 48px;
+  color: #6b6d8b;
+  width: 350px;
+  height: 105px;
+  margin: 0 auto;
+  line-height:100px;
+  text-align: center;
+  background: url("images/gray.png") no-repeat center;
+  background-size:100% 100%;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.App .indexpart .btns.green{
+  font-size: 48px;
+  color: #fff;
+  width: 350px;
+  height: 100px;
+  margin: 0 auto;
+  line-height:100px;
+  text-align: center;
+  background: #5460FF;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.App .indexpart .kosctie{
+  font-size: 48px;
+  color: #151732;
+  text-align: center;
+  font-weight: 800;
+}
+.App .indexpart .pslist{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top:47px;
+}
+.App .indexpart .pslist .mvip{
+   width:305px;
+ }
+.App .indexpart .pslist .mvip .img{
+  width:100%;
+  height:188px;
+  background: url("images/mvip.png") no-repeat center;
+  background-size: 100% 100%;
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+.App .indexpart .pslist .mvip .img.light{
+  width:100%;
+  height:188px;
+  background: url("images/mvip.png") no-repeat center;
+  background-size: 100% 100%;
+  -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+  filter: grayscale(0%);
+}
+.App .indexpart .pslist .mvip .fot{
+
+  font-size: 28px;
+  color: #151732;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.App .indexpart .pslist .mvip .fon{
+  font-size: 26px;
+  color: #353968;
+  margin-top: 20px;
+}
+.App .indexpart .pslist .vip{
+  width:305px;
+  margin-left: 150px;
+}
+.App .indexpart .pslist .vip .img{
+  width:100%;
+  height:188px;
+  background: url("images/vip.png") no-repeat center;
+  background-size: 100% 100%;
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+.filterGray{
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+.filterGray .red{
+  color: #f5222d;
+}
+.App .indexpart .pslist .vip .img.light{
+  width:100%;
+  height:188px;
+  background: url("images/vip.png") no-repeat center;
+  background-size: 100% 100%;
+  -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+  filter: grayscale(0%);
+}
+.App .indexpart .pslist .vip .fot{
+  font-size:28px;
+  color: #151732;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.App .indexpart .pslist .vip .fon{
+  font-size: 26px;
+  color: #353968;
+  margin-top: 20px;
+
+}
+.App .indexpart .userlist{
+  margin-top:40px;
+  background: #f6f6fa;
+  padding:35px 20px;
+  border-radius:25px;
+}
+.App .indexpart .userlist .userInfo{
+  font-size:26px;
+  text-align: left;
+
+  margin-bottom: 10px;
+  color: #6c6f92;
+  text-align: left;
+}
+.App .indexpart .userlist .userInfo .sss{
+  display: flex;
+  justify-content:space-between;
+}
+.App .indexpart .userlist .userInfo span{
+  flex: 1;
+  line-height:40px;
+  font-size: 26px;
+}
+.App .indexpart .userlist .userInfo span a {
+ color:#5460ff
+}
+.App .indexpart .userlist .userInfo.item{
+  font-size:24px;
+  color: #bebfcd;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content:space-between;
+  text-align: left;
+}
+.propmain{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(0,0,0,.8);
+  z-index: 999;
+  overflow: hidden;
+}
+.mian_content {
+  display: flex;
+  justify-content:center;
+  position:absolute;
+  width: 100%;
+  top: 50%;
+  margin-top: -50px;
+}
+.mian_content .ant-btn{
+  display: block;
+  width:100px;
+  height: 100px;
+  display: block;
+  margin: 0 20px;
+}
+.mian_content .ant-btn img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.animated {
+  -webkit-animation-duration:.5s;
+  animation-duration:.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite
+}
+
+.animated.hinge {
+  -webkit-animation-duration: .5s;
+  animation-duration:.5s
+}
+.ant-popover-buttons button:nth-child(1){
+  display: none;
+}
+.ant-popover-buttons button:nth-child(2){
+  display: none;
+}
+.ant-popover-message-title{
+  line-height:1.4em;
+  font-size:24px;
+  padding-left:40px;
+}
+.ant-popover-message-title div.sts{
+  width:500px;
+}
+.ant-popover-message-title div span{
+  display: block;
+}
+.ant-popover-message-title div span:nth-child(2){
+  margin-top:10px;
+}
+.ant-popover-message-title div span:nth-child(3){
+  margin-top:10px;
+}
+.ant-popover-message-title div span:nth-child(4){
+  margin-top:10px;
+}
+.ant-popover-message-title div span:nth-child(5){
+  margin-top:10px;
+}
+/*.ant-popover-message > .anticon{*/
+/*  display: none;*/
+/*}*/
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    z-index: 99;
+  }
+
+  100% {
+    opacity: 1;
+    z-index: 99;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    z-index: 99;
+  }
+
+  100% {
+    opacity: 1;
+    z-index: 99;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.loading{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,.5);
+  top: 0;
+  left: 0;
+}
+.loading .ant-spin-spinning{
+  top: 45%;
+  left:45%;
+  position: absolute;
+}
+
+
+.share{
+  position: fixed;
+  bottom:40px;
+  left:35px;
+  width: 133px;
+  height: 132px;
+  background: url("images/share.png")no-repeat center;
+  background-size: 100% 100%;
+}
+.ant-popover-inner{
+
+  max-width: 94%;
+  margin: 0 auto;
+}
+.PageShare{
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.sii .bottom{
+  background: #000;
+  padding-top: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.sii .bottom .bottom_in{
+  width: 100%;
+  height:180px;
+  background: #fff;
+  display: flex;
+  justify-content:center;
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+  padding:20px;
+  border-bottom: 1px solid #edeef6;
+}
+.sii .bottom_in div{
+  width: 102px;
+  background: url("images/b1.png") no-repeat center top;
+  background-size: 102px 102px;
+  font-size: 22px;
+  color: #353968;
+  position: relative;
+  margin: 0 80px;
+}
+.sii .bottom_in div button{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:none;
+  border: none;
+  z-index: 99;
+}
+.sii .bottom_in div:nth-child(2){
+  background: url("images/b2.png") no-repeat center top;
+  background-size: 102px 102px;
+}
+.sii .bottom_in div:nth-child(3){
+  background: url("images/b3.png") no-repeat center top;
+  background-size: 102px 102px;
+}
+.sii .bottom_in div:nth-child(4){
+  background: url("images/b4.png") no-repeat center top;
+  background-size: 102px 102px;
+}
+.sii .bottom_in div:nth-child(5){
+  background: url("images/b5.png") no-repeat center top;
+  background-size: 102px 102px;
+}
+.sii .bottom_in div span{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 110px;
+}
+.sii .close{
+  background: #fff;
+  height:100px;
+  line-height: 100px;
+  text-align: center;
+  font-size:32px;
+}
+.logs{
+  width:670px;
+  height: 120px;
+  background: #fff;
+  position:fixed;
+  top:165px;
+  left: 50%;
+  margin-left: -335px;
+  z-index: 999;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px #ccc;
+  border-radius: 15px;
+}
+.logs span{
+  float: left;
+  width: 110px;
+  height: 110px;
+  background:url("images/sucess.png") no-repeat center;
+  background-size:100% 100%;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-right:20px;
+}
+.logs .tit{
+  font-size:32px;
+  color: #151732;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.logs .tis{
+  font-size:26px;
+  color: #151732;
+
+  margin-top:15px;
+}
+.logs .close{
+  font-size: 42px;
+  color: #000;
+  position: absolute;
+  right: 20px;
+  top:10px;
+}
+.animated {
+  -webkit-animation-duration:.5s;
+  animation-duration:.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite
+}
+
+.animated.hinge {
+  -webkit-animation-duration: .5s;
+  animation-duration:.5s
+}
+.ant-popover-buttons button:nth-child(1){
+  display: none;
+}
+.ant-popover-buttons button:nth-child(2){
+  display: none;
+}
+.ant-popover-message-title{
+  line-height:1.4em;
+  font-size: 26px;
+  padding-left:40px;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    z-index: 99;
+  }
+
+  100% {
+    opacity: 1;
+    z-index: 99;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    z-index: 99;
+  }
+
+  100% {
+    opacity: 1;
+    z-index: 99;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.ant-modal-title{
+  font-size:32px;
+  line-height:1em;
+}
+.ant-modal-body{
+  font-size: 28px;
+  text-align: center;
+}
+.ant-modal-footer button{
+  height: 60px;
+
+}
+.bgmeau{
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(0,0,0,.7);
+  z-index: 999;
+}
+.leftmeau{
+  position: fixed;
+  width:420px;
+  height: 100%;
+  background:#1b1d2c;
+  z-index: 999;
+  padding-top:140px;
+}
+.leftmeau .close{
+  font-size: 62px;
+  color: #c4c7ce;
+  position: absolute;
+  right:20px;
+  top: 30px;
+}
+.leftmeau .meauli{
+  margin-bottom: 30px;
+  text-align: center;
+  height: 100px;
+  line-height:100px;
+  font-size:30px;
+  color:#c4c7ce;
+}
+.leftmeau .meauli a{
+  font-size:30px;
+  color:#c4c7ce;
+  display: block;
+  height: 100%;
+  line-height:100px;
+}
+.gameStart{
+   position: fixed;
+   top:0;
+   left:0;
+   bottom: 0;
+   right: 0;
+   background:rgba(55,58,127,.9);
+   z-index: 999;
+  overflow: hidden;
+
+}
+.gameStart .start{
+
+}
+.gameStart .start .startimg{
+  width: 300px;
+  height: 300px;
+  background: url("images/colock.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.gameStart .start .st1{
+  font-size: 32px;
+  color:#d6d8f9;
+  text-align: center;
+  margin-top:20px;
+}
+
+.announcement{
+  font-size: 32px;
+  color:#d6d8f9;
+  text-align: left;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top:20px;
+  text-indent: 64px;
+}
+
+.gameStart .start .st2{
+  font-size:48px;
+  text-align: center;
+  background-image:-webkit-linear-gradient(bottom,#eeac14,#f6c616,#fcda17);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+
+  font-weight: bold;
+
+  color: transparent;
+  text-shadow:6px 6px 6px ;
+  font-family: Impact;
+  margin-top:40px;
+}
+
+.st22{
+  font-size:48px;
+  text-align: center;
+  background-image:-webkit-linear-gradient(bottom,#eeac14,#f6c616,#fcda17);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+
+  font-weight: bold;
+
+  color: transparent;
+  text-shadow:6px 6px 6px ;
+  font-family: Impact;
+  margin-top:200px;
+}
+.gameStart .start .startbtns{
+  width: 305px;
+  height: 105px;
+    background: url("images/blue_btn.png") no-repeat;
+  background-size: 100% 100%;
+  font-size:42px;
+  color: #fff;
+  text-align: center;
+  line-height:100px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.showCode{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,.7);
+  z-index: 99;
+}
+.showCode .codecontent{
+  width:600px;
+  padding:20px 35px;
+  background: #fff;
+  border-radius:5px;
+  position: absolute;
+  z-index: 99;
+  left: 50%;
+  margin-left: -300px;
+  top:35%;
+}
+.showCode .codecontent.resout{
+  width:700px;
+  margin-left: -350px;
+}
+.showCode .sp{
+  font-size: 28px;
+  line-height: 45px;
+  background: url("images/case.png") no-repeat 0px 5px;
+  background-size:28px 28px;
+  padding-left:45px;
+}
+.showCode .sp.nomal{
+  background: none;
+}
+.showCode .sl{
+  font-size: 28px;
+  line-height: 45px;
+
+  padding-left:45px;
+}
+.openPrice{
+  background:rgba(55,58,126,.7);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+}
+.openPrice .openC{
+  width: 676px;
+  height: 715px;
+  background: url("images/gitft.png") no-repeat center;
+  background-size:100% 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -338px;
+  top: 50%;
+  margin-top:-357.5px;
+}
+.openPrice .openC .tsp{
+  font-size: 64px;
+  color: #534438;
+  text-align: center;
+  margin-top:265px;
+}
+.openPrice .openC .tsp1{
+  font-size: 52px;
+  color:#353968;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 100px;
+}
+.openPrice .openC .tsp2{
+  font-size: 32px;
+  color: #6c6f92;
+  text-align: center;
+  margin-top: 20px;
+}
+.openPrice .openC .openspbtn{
+  width: 305px;
+  height: 105px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 48px;
+  font-weight:800;
+  color: #fff;
+  border-radius: 15px;
+  background: url("images/blue_btn.png") no-repeat center;
+  background-size:100% 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.shoumodal{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,.7);
+  z-index: 99;
+}
+.shoumodal .codecontent{
+  width:500px;
+  padding:40px 35px;
+  background: #fff;
+  border-radius:5px;
+  position: absolute;
+  z-index: 99;
+  left: 50%;
+  margin-left: -250px;
+  top:35%;
+}
+.shoumodal .codecontent.resout{
+  width:600px;
+  margin-left: -300px;
+}
+.shoumodal .sp{
+  font-size:32px;
+  line-height: 45px;
+  padding-left:45px;
+}
+
+.shoumodal .sp span{
+  font-weight: bold;
+}
+.shoumodal .btn_cs{
+  display: flex;
+  justify-content: center;
+  margin-top:50px;
+}
+.shoumodal .btn_yes{
+  width:140px;
+  height:60px;
+  background: #2f54eb;
+  border: 1px solid #2f54eb;
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+  margin-left:40px;
+}
+.shoumodal .btn_no{
+  width:140px;
+  height:60px;
+  border: 1px solid #ccc;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+
+
+}

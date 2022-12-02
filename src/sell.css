@@ -1,0 +1,539 @@
+.sell .indexpart .btns{
+  background: url("images/green_btn.png") no-repeat center;
+  background-size:100% 100%;
+  color: #fff;
+  font-size:42px;
+}
+.nft{
+  background: url("images/NFT.png") no-repeat center;
+  background-size:100% 100%;
+  margin-left: 170px;
+  width: 300px;
+  height: 250px;
+}
+.sell .indexpart .btnsauthor{
+  background: url("images/blue_btn.png") no-repeat center;
+  background-size:100% 100%;
+  color: #fff;
+}
+.sell .indexpart .btnsbuy{
+  background: url("images/green_btn.png") no-repeat center;
+  background-size:100% 100%;
+  color: #fff;
+
+}
+.sell .indexpart .desable{
+  background:#dddddd;
+  color: #fff;
+
+}
+.sell .indexpart .parlinek:nth-child(1){
+
+  text-indent:0px;
+}
+.sell .indexpart .sellbox{
+  text-align: left;
+}
+.sell .indexpart .sellbox .line1{
+  display: flex;
+  justify-content: space-between;
+  font-size: 26px;
+  color: #6c6f92;
+  margin-top: 37px;
+}
+.sell .indexpart .sellbox .line2{
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 37px;
+}
+.sell .indexpart .sellbox .line2 input{
+  border:2px solid #bdbfd8;
+  background:#f6f6fa;
+  height: 116px;
+  border-radius:15px;
+  font-size:36px;
+  font-weight: bold;
+  text-indent:10px;
+}
+.sell .indexpart .sellbox .line2 .max{
+  position: absolute;
+  border:2px solid #5460ff;
+  color:#5460ff;
+  background: #fff;
+  width: 105px;
+  height: 55px;
+  right:20px;
+  top:28px;
+  font-size: 24px;
+  text-align: center;
+  line-height:55px;
+  border-radius: 10px;
+}
+.ant-input[disabled]{
+  color: #000;
+}
+.sell .indexpart .sellbox .line3{
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 37px;
+  border:2px solid #bdbfd8;
+  background:#f6f6fa;
+  height: 116px;
+}
+.ant-btn{
+  height: auto;
+}
+
+.sell .indexpart .sellbox .line3 .ant-input-group-wrapper{
+  width:68%;
+  height: 116px;
+
+  display: block;
+}
+.ant-input-group{
+  height: 112px;
+}
+.sell .indexpart .sellbox .line3 .ant-input-group-wrapper input{
+  border: none;
+  border-radius:15px;
+  font-size:36px;
+  font-weight: bold;
+  text-align: center;
+  background:none;
+  line-height:112px;
+  padding: 0;
+  margin-left:40px;
+  width:40%;
+  text-align: right;
+  float: right;
+}
+.sell .indexpart .sellbox .line3 .ant-input-group-wrapper .ant-input-group-addon{
+  background: #f6f6fa;
+  border: none;
+  font-size:36px;
+  color: #000;
+  font-weight: bold;
+  line-height:112px;
+  padding:0;
+}
+.sell .indexpart .sellbox .line3 .reduce{
+  position: absolute;
+  border:2px solid #5460ff;
+  color:#5460ff;
+  background: #fff;
+  width:75px;
+  height:75px;
+  right:20px;
+  top:20px;
+  text-align: center;
+  line-height:75px;
+  border-radius:10px;
+}
+.sell .indexpart .sellbox .line3 .add{
+  position: absolute;
+  border:2px solid #5460ff;
+  color:#5460ff;
+  background: #fff;
+  width: 75px;
+  height: 75px;
+  left:20px;
+  top:20px;
+  text-align: center;
+  line-height:75px;
+  border-radius: 10px;
+}
+.sell .indexpart .sellline{
+  position: relative;
+  margin-top:10px;
+}
+.sell .indexpart .sellline .s1{
+  font-size: 36px;
+  color: #151732;
+  float: left;
+  width:50%;
+  text-align: left;
+}
+.sell .indexpart .sellline .s2{
+  font-size:26px;
+  color: #353968;
+  float: right;
+  width: 50%;
+  text-align: right;
+
+}
+.sell .indexpart .sellline .s3{
+   font-size:26px;
+   color: #6c6f92;
+  width: 100%;
+  text-align: right;
+  padding-bottom: 10px;
+ }
+.sell .indexpart .sellline .s4{
+  height: 1px;
+  width: 100%;
+  overflow: hidden;
+}
+.sell .indexpart .sellline.sellli .s1{
+  width: 100%;
+  float: none;
+}
+.sell .indexpart .sellline.sellli .s2{
+  width: 100%;
+  float: none;
+  text-align: left;
+  margin-top: 10px;
+}
+.sell .indexpart .sellline.sellli .s2.green{
+  color:#389e0d;
+}
+.sell .indexpart .sellline.sellli .s2.red{
+  color:#f5222d;
+}
+.sell .indexpart .sellline.sellli .s3{
+  border-bottom: 1px dashed #ccc;
+  margin-top: 10px;
+}
+.sell .indexpart .linelist{
+  margin-top:10px;
+  font-size:24px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+  margin-bottom:20px;
+}
+.sell .indexpart .linelist div{
+  font-size:26px;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom:10px;
+}
+.loading{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,.5);
+  top: 0;
+  left: 0;
+}
+.loading .ant-spin-spinning{
+  top: 45%;
+  left:45%;
+  position: absolute;
+}
+.nodate{
+  font-size: 28px;
+}
+.more{
+  font-size: 28px;
+  margin-top:40px;
+}
+.ant-notification{
+  width: 100%;
+}
+.openNotification{
+  top: 0;
+  width:600px;
+  height:120px;
+  left:50%;
+  margin-left:-270px;
+  padding: 0;
+  border-radius:15px;
+}
+.ant-notification-notice-content{
+  height: 100%;
+}
+.ant-notification-notice-with-icon{
+  height: 110px;
+  margin-top: 5px;
+}
+.ant-notification-notice-with-icon .ant-notification-notice-message{
+  font-size:32px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.ant-notification-notice-with-icon .ant-notification-notice-description{
+  margin-top:15px;
+  line-height:1.4em;
+  font-size:28px;
+}
+.anticon.ant-notification-notice-icon-info{
+  width: 110px;
+  height: 110px;
+  background: url("images/sucess.png") no-repeat center;
+  background-size:100% 100%;
+  position: static;
+  float: left;
+  margin-left:5px;
+  margin-right: 20px;
+}
+.anticon.ant-notification-notice-icon-info svg{
+  display: none;
+}
+.anticon svg{
+  font-size: 28px;
+}
+.ant-statistic{
+  display: inline-block;
+}
+.historylist{
+  display: flex;
+  justify-content: left;
+}
+.historylist div{
+  font-size: 24px;
+  color: #bebfcd;
+  text-align: left;
+}
+.historylist div:nth-child(1){
+  width: 110px;
+  overflow: hidden;
+
+}
+.historylist div:nth-child(2){
+  width: 230px;
+  overflow: hidden;
+  text-align: right;
+}
+.historylist div:nth-child(3){
+  width: 140px;
+  overflow: hidden;
+  text-align: right;
+}
+.historylist div:nth-child(4){
+  width: 150px;
+  overflow: hidden;
+  text-align: right;
+}
+.historylistli{
+  margin-top:30px;
+  text-align: left;
+
+}
+.historylistli .ril{
+  margin-bottom:30px;
+}
+.historylistli .cor{
+  display: flex;
+  margin-bottom:10px;
+  justify-content: left;
+}
+.historylistli .cor div{
+  font-size:24px;
+  color: #6c6f92;
+}
+.historylistli .cor .blue a{
+  color:#565ffe;
+}
+.historylistli .cor .red{
+  color:#f5222d;
+}
+.historylistli .cor .green{
+  color:#389e0d;
+}
+.historylistli .cor div:nth-child(1){
+  width:110px;
+  overflow: hidden;
+
+}
+.historylistli .cor div:nth-child(2){
+  width: 230px;
+  overflow: hidden;
+  text-align: right;
+}
+.historylistli .cor div:nth-child(3){
+  width: 140px;
+  overflow: hidden;
+  text-align: right;
+}
+.historylistli .cor div:nth-child(4){
+  width: 150px;
+  overflow: hidden;
+  text-align: right;
+}
+
+
+.sellhistorylist{
+  display: flex;
+  justify-content: left;
+}
+.sellhistorylist div{
+  font-size: 24px;
+  color: #bebfcd;
+  text-align: left;
+}
+.sellhistorylist div:nth-child(1){
+  width:80px;
+  overflow: hidden;
+
+}
+.sellhistorylist div:nth-child(2){
+  width: 150px;
+  overflow: hidden;
+  text-align:center;
+}
+.sellhistorylist div:nth-child(3){
+  width: 200px;
+  overflow: hidden;
+  text-align: right;
+}
+.sellhistorylist div:nth-child(4){
+  width: 120px;
+  overflow: hidden;
+  text-align: center;
+}
+.sellhistorylist div:nth-child(5){
+  width: 150px;
+  overflow: hidden;
+  text-align: right;
+}
+.sellhistorylistli{
+  margin-top:30px;
+  text-align: left;
+
+}
+.sellhistorylistli .ril{
+  margin-bottom:30px;
+}
+.sellhistorylistli .cor{
+  display: flex;
+  margin-bottom:10px;
+  justify-content: left;
+}
+.sellhistorylistli .cor div{
+  font-size:24px;
+  color: #6c6f92;
+}
+.sellhistorylistli .cor .blue a{
+  color:#565ffe;
+}
+.sellhistorylistli .cor .red{
+  color:#f5222d;
+}
+.sellhistorylistli .cor .green{
+  color:#389e0d;
+}
+.sellhistorylistli .cor div:nth-child(1){
+  width:80px;
+  overflow: hidden;
+
+}
+.sellhistorylistli .cor div:nth-child(2){
+  width: 150px;
+  overflow: hidden;
+  text-align: center;
+}
+.sellhistorylistli .cor div:nth-child(3){
+  width:200px;
+  overflow: hidden;
+  text-align: right;
+}
+.sellhistorylistli .cor div:nth-child(4){
+  width: 120px;
+  overflow: hidden;
+  text-align:center;
+}
+.sellhistorylistli .cor div:nth-child(5){
+  width: 150px;
+  overflow: hidden;
+  text-align: right;
+}
+.logs{
+  width:670px;
+  height: 120px;
+  background: #fff;
+  position:fixed;
+  top:165px;
+  left: 50%;
+  margin-left: -335px;
+  z-index: 999;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px #ccc;
+  border-radius: 15px;
+}
+.logs span{
+  float: left;
+  width: 110px;
+  height: 110px;
+  background:url("images/sucess.png") no-repeat center;
+  background-size:100% 100%;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-right:20px;
+}
+.logs .tit{
+  font-size:32px;
+  color: #151732;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.logs .tis{
+  font-size:26px;
+  color: #151732;
+
+  margin-top:15px;
+}
+.logs .close{
+  font-size: 42px;
+  color: #000;
+  position: absolute;
+  right: 20px;
+  top:10px;
+}
+.animated {
+  -webkit-animation-duration:.5s;
+  animation-duration:.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite
+}
+
+.animated.hinge {
+  -webkit-animation-duration: .5s;
+  animation-duration:.5s
+}
+.ant-popover-buttons button:nth-child(1){
+  display: none;
+}
+.ant-popover-buttons button:nth-child(2){
+  display: none;
+}
+.ant-popover-message-title{
+  line-height:1.4em;
+  font-size: 26px;
+  padding-left:40px;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    z-index: 99;
+  }
+
+  100% {
+    opacity: 1;
+    z-index: 99;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    z-index: 99;
+  }
+
+  100% {
+    opacity: 1;
+    z-index: 99;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
